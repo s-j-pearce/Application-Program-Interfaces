@@ -8,14 +8,20 @@ API's help developers save time by allowing them to have a set a preset commands
 
 ### Types of API's
 #### Web service API's
+A web service is a peice of software or system which allows access to its services through an address on the world wide web. The address is known as a URi or URL. The main focus is that the web service offers the information in a format that other applications can understand/read. A good example of a Web API could be Google Static Maps API as well as other google maps web services. 
 
-#### SOAP (Simple Object Access Protocol)
+A web service API will use HTTP to exchange its information. It will also use the HTTPS in order to exchange encrypted data. When a user or the application wants to communicate with the web sevice, it will send an HTTP request. once received, the web service will then send a HTTP response. The URL itself holds all of the required information within the request - through paths within the URL as well as URL parameters.
 
-#### XML-RPC
+On top of the URL, HTTP requests and responses will also include information in the header and the body message. Request and response 'Headers' will include various types of metadata, this data could include which browser is being used to send the requests, the content type, which language is being used(Human language) as well as much more. THe body includes additional data within the requests and responses. This data comes in the format of XML and JSON. The conversion process which converts databases or classes to the correct format is called 'data serialization'.
 
-#### JSON-RPC
+##### The most common types of webservices:
+###### SOAP (Simple Object Access Protocol)
 
-#### REST (Representational state transfer)
+###### XML-RPC
+
+###### JSON-RPC
+
+###### REST (Representational state transfer)
 
 #### Library-based API's
 
