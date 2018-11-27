@@ -36,7 +36,7 @@ The towns service might then send a response containing a bunch of information a
 
 The most commonly used data format is JSON or XML. Usually the service will offer a choice where the client can request one or the other. This process is usually done by including "json" or "xml" in the URL path or in a URL parameter.
 
-
+A REST service might publish a WADL document describing the resources it has available as well as the method it will accept in order to access those resources. 
 #### Library-based API's
 
 #### Class-based API's (Object orientated) - a special type of library-based API
