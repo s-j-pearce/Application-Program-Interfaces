@@ -38,7 +38,9 @@ The most commonly used data format is JSON or XML. Usually the service will offe
 
 A REST service might publish a WADL document describing the resources it has available as well as the method it will accept in order to access those resources. 
 #### Library-based API's
+In order to use this type of API, an application will need to reference or import a library of code or even binary functions. The application will then use the functions/routines from the imported library to perform actions as well as exchanging information.
 
+JavaScript API's are a very good example or a library based API. 
 #### Class-based API's (Object orientated) - a special type of library-based API
 
 #### Function or routines in an OS
