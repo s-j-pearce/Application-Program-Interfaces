@@ -1,3 +1,12 @@
 # Relationship between an API and a software development kit (SDK)
+### What is API?
+
+API is an interface that allows software programs to interact with each other. It defines a set of rules that should be followed by the programs to communicate with each other. APIs generally specify how the routines, data structures, etc. should be defined in order for two applications to communicate. APIs differ in the functionality provided by them. There are general APIs that provide library functionalities of a programming language such as the Java API. There are also APIs that provides specific functionalities such as the Google Maps API. There are also language dependent APIs, which could only be used by a specific programming language. Furthermore, there are language independent APIs that could be used with several programming languages. APIs needs to be implemented very carefully by exposing only the required functionality or data to the outside, while keeping the other parts of the application inaccessible. Usage of APIs has become very popular in the internet. It has become very common to allow some of the functionality and data through an API to the outside on the Web. This functionality can be combined to offer an improved functionality to the users.
+
+### What is SDK?
+
+SDK is a set of tools that can be used to develop software applications targeting a specific platform. SDKs include tools, libraries, documentation and sample code that would help a programmer to develop an application. Most of the SDKs could be downloaded from the internet and many of the SDKs are provided free to encourage the programmers to use the SDK‘s programming language. Some widely used SDKs are Java SDK (JDK) that includes all the libraries, debugging utilities, etc., which would make writing programs much easier in Java. SDKs make the life of a software developer easy, since there is no need to look for components/ tools that are compatible with each other and all of them are integrated in to a single package that is easy to install.
+
+### Difference between an API and SDK:
 
 An API is an interface that allows software programs to interact with each other, whereas a SDK is a set of tools that can be used to develop software applications targeting a specific platform. The simplest version of a SDK could be an API that contains some files required to interact with a specific programming language. So an API can be seen as a simple SDK without all the debugging support, etc.
